@@ -15,11 +15,13 @@ Rockets can be dangerous. The bigger the rocket, the greater the hazards. This i
 * electrical features (LiPo battery, relay, buzzer, RJ11 cable, continuity check)
 
 <img src="http://niftyhedgehog.com/usc-rpl-ignition/images/igniter_top.jpg">
+
 <img src="http://niftyhedgehog.com/usc-rpl-ignition/images/igniter_case.jpg">
 
 ## Ignition
 
 <img src="http://niftyhedgehog.com/usc-rpl-ignition/images/load_rocket.jpg">
+
 <img src="http://niftyhedgehog.com/usc-rpl-ignition/images/traveler_rocket_mountain.jpg">
 
 * GIF animation
