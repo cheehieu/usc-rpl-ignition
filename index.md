@@ -12,7 +12,7 @@ Rockets can be dangerous. And the bigger the rocket, the greater the hazards. Th
 In order to comply with National Association of Rocketry (NAR) high power rocket [safety code](http://www.nar.org/safety-information/high-power-rocket-safety-code/), an electrical motor igniter must be installed in the motor only at the launchpad or designated preparation area. The launching system must have a safety interlock in series with the launch switch, and must return to the "off" position when released. A 5-second countdown must be used before launch to warn participants and spectators, who must not be closer than the specified minimum distance. For complex multi-stage rockets, the minimum personnel distance is anywhere from 200-2000ft, depending on the motor type.
 
 ## Hardware
-This igniter controller and launcher was largely inspired by a launch controller designed by Michael Moncur of the rocket team [vatsaas](http://www.vatsaas.org/RTV/Support/relay/launcher.aspx). Its core functionality remained intact, but a few optimizations were made to improve portability, reuse, and cost. The schematic from vatsaas is illustrated below. 
+This igniter controller and launcher was largely inspired by a launch controller designed by Michael Moncur of the rocket team [vatsaas](http://www.vatsaas.org/RTV/Support/relay/launcher.aspx). Its core functionality remained intact, but a few optimizations were made to improve portability, reuse, and cost.
 
 ### Controller
 <img src="http://niftyhedgehog.com/usc-rpl-ignition/images/controller_top.jpg">
@@ -41,7 +41,7 @@ When Relay 1 is activated (via the continuity transistor which is activated by t
 The siren is also activated by Relay 2. This indicates that the launch relay is energized, and that the rocket will launch as soon as the continuity circuit engages. I made a few changes to this design to reduce overall size. I swapped the oversized 12V lead-acid car battery to use a rechargable 3S 20C lithium polymer battery. I also explored using power MOSFETs instead of mechanical relays.
 
 ### Misc.
-The connection between the hand controller to the launch box is a 4 conductor low power RJ-11 telephone cable. The transistor circuit controlling the relays/MOSFETs only requires a weak electrical signal, so we don't need to worry about signal attenuation due to cable resistance over the 200ft+ cable length. 
+The connection between the hand controller to the launch box is a 4 conductor low power RJ-11 telephone cable. The transistor circuit controlling the relays/MOSFETs only requires a weak electrical signal, so there is no need to worry about signal attenuation due to cable resistance over the 200ft+ cable length. 
 
 To improve portability, I found an old briefcase to organize and carry the launch controller.
 
@@ -58,4 +58,5 @@ Traveler is ready for launch!
 <img src="http://niftyhedgehog.com/usc-rpl-ignition/images/traveler_rocket_mountain.jpg">
 
 Ignition sequence at the rocket
+
 <img src="http://niftyhedgehog.com/usc-rpl-ignition/images/liftoff.gif">
